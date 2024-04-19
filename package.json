@@ -1,32 +1,20 @@
 {
-  "name": "update2do-todo-list",
+  "name": "update001-todo-list",
   "version": "1.0.2",
-  "description": "A todo list with Node.js,typescript,inquirer and chalk",
-  "main": "index.js",
+  "main": "app.js",
   "type": "module",
   "bin": "app.js",
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/arzoopervaiz/update-Todo-list.git"
-  },
   "author": "Arzoo",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/arzoopervaiz/update-Todo-list/issues"
-  },
-  "homepage": "https://github.com/arzoopervaiz/update-Todo-list#readme",
-  "devDependencies": {
-    "@types/inquirer": "^9.0.7",
-    "@types/node": "^20.12.4"
-  },
+  "description": "",
   "dependencies": {
     "chalk": "^5.3.0",
     "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
   }
 }
